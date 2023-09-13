@@ -1,7 +1,10 @@
+import { ThemeProvider } from "styled-components";
 
-function App() {
+export function App() {
 
-  return <h1>Hello Word</h1>;
+  return (
+    <ThemeProvider>
+      <h1>Hello Word</h1>
+    </ThemeProvider>
+  )
 }
-
-export default App;
